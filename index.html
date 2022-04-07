@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/script.js" defer></script>
+		<title>Opt-in Dashboard</title>
+	</head>
+	<body>
+		<header class="top-bar">
+			<div class="search-bar-container">
+				<span class="material-icons-outlined"> search</span>
+				<input type="text" class="search-bar" />
+			</div>
+			<div class="user-avatar-container">
+				<img
+					src="/public/avatar.svg"
+					alt="avatar1-profile-image"
+					class="user-avatar"
+				/>
+				<div class="avatar-text">
+					<p>Hi there,</p>
+					<p>Ruben Thomas (@F4LC0NN)</p>
+				</div>
+			</div>
+			<div class="notifications-container">
+				<span class="material-icons-outlined"> notifications_active </span>
+				<img
+					src="/public/avatar.svg"
+					alt="avatar1-profile-image"
+					class="user-avatar"
+				/>
+				<p>Ruben Thomas</p>
+			</div>
+			<div class="header-controls-container">
+				<button type="button" class="header-controls-button">New</button>
+				<button type="button" class="header-controls-button">Upload</button>
+				<button type="button" class="header-controls-button">Share</button>
+			</div>
+		</header>
+		<aside class="left-bar">
+			<div class="logo-container">
+				<img src="public/logo.svg" />
+				<h1 class="logo-title">Opt-in Dashboard</h1>
+			</div>
+			<nav>
+				<ul class="main-menu">
+					<li class="menu-item" id="home">
+						<a href="#"><span class="material-icons-round"> home </span>Home</a>
+					</li>
+					<li class="menu-item" id="profile">
+						<a href="#"
+							><span class="material-icons-round"> person </span>Profile</a
+						>
+					</li>
+					<li class="menu-item" id="messages">
+						<a href="#"
+							><span class="material-icons-round"> contact_mail </span
+							>Messages</a
+						>
+					</li>
+					<li class="menu-item" id="history">
+						<a href="#"
+							><span class="material-icons-round"> history </span>History</a
+						>
+					</li>
+					<li class="menu-item" id="tasks">
+						<a href="#"
+							><span class="material-icons-round"> task </span>Tasks</a
+						>
+					</li>
+					<li class="menu-item" id="communities">
+						<a href="#"
+							><span class="material-icons-round"> groups </span>Communities</a
+						>
+					</li>
+				</ul>
+				<ul class="secondary-menu">
+					<li class="menu-item" id="settings">
+						<a href="#"
+							><span class="material-icons-round"> settings </span>Settings</a
+						>
+					</li>
+					<li class="menu-item" id="terms&conditions">
+						<a href="#"
+							><span class="material-icons-round"> info </span>Terms &
+							Conditions</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<div class="main-area">
+			<main>
+				<div class="projects-container">
+					<h2 class="projects-title">My Projects</h2>
+					<div class="projects-cards-container">
+						<div class="project-card">
+              <div class="decoration"></div>
+							<div class="content">
+                <h3 class="project-title">Studify</h3>
+                <p class="project-description">
+                  This project is a simple form design with responsiveness and a
+                  validation process.
+                </p>
+                <div class="project-controls-container">
+                  <button type="button" class="project-controls-button">
+                    <span class="material-icons-outlined">
+                      star_border
+                    </span></button
+                  ><button type="button" class="project-controls-button">
+                    <span class="material-icons-round"> visibility </span></button
+                  ><button type="button" class="project-controls-button">
+                    <span class="material-icons-outlined"> share </span>
+                  </button>
+                </div>
+              </div>
+						</div>
+						<div class="project-card">
+              <div class="decoration"></div>
+							<div class="content">
+							<h3 class="project-title">Simple Calc</h3>
+							<p class="project-description">
+								This project is a calculator with basic operations, negative
+								numbers & decimal point numbers.
+							</p>
+							<div class="project-controls-container">
+								<button type="button" class="project-controls-button">
+									<span class="material-icons-outlined">
+										star_border
+									</span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-round"> visibility </span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-outlined"> share </span>
+								</button>
+							</div>
+              </div>
+						</div>
+						<div class="project-card">
+              <div class="decoration"></div>
+							<div class="content">
+							<h3 class="project-title">Etch A Sketch</h3>
+							<p class="project-description">
+								This a project is a drawing board that allows to choose the
+								surface area to draw on.
+							</p>
+							<div class="project-controls-container">
+								<button type="button" class="project-controls-button">
+									<span class="material-icons-outlined">
+										star_border
+									</span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-round"> visibility </span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-outlined"> share </span>
+								</button>
+							</div>
+              </div>
+						</div>
+						<div class="project-card">
+              <div class="decoration"></div>
+							<div class="content">
+							<h3 class="project-title">Item Lister</h3>
+							<p class="project-description">
+								This project is a simple item lister. You can add, delete and
+								search for appended items.
+							</p>
+							<div class="project-controls-container">
+								<button type="button" class="project-controls-button">
+									<span class="material-icons-outlined">
+										star_border
+									</span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-round"> visibility </span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-outlined"> share </span>
+								</button>
+							</div>
+              </div>
+						</div>
+						<div class="project-card">
+              <div class="decoration"></div>
+							<div class="content">
+							<h3 class="project-title">Drop the Hithat</h3>
+							<p class="project-description">
+								This project is sound pad. You can tap on the keys shown on the
+								screen to play the associated sound.
+							</p>
+							<div class="project-controls-container">
+								<button type="button" class="project-controls-button">
+									<span class="material-icons-outlined">
+										star_border
+									</span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-round"> visibility </span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-outlined"> share </span>
+								</button>
+							</div>
+              </div>
+						</div>
+						<div class="project-card">
+              <div class="decoration"></div>
+							<div class="content">
+							<h3 class="project-title">Fire Water Earth</h3>
+							<p class="project-description">
+								This a project is a derivation of rock, paper, scissors. Can you
+								win fight times in a row?
+							</p>
+							<div class="project-controls-container">
+								<button type="button" class="project-controls-button">
+									<span class="material-icons-outlined">
+										star_border
+									</span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-round"> visibility </span></button
+								><button type="button" class="project-controls-button">
+									<span class="material-icons-outlined"> share </span>
+								</button>
+							</div>
+              </div>
+						</div>
+					</div>
+				</div>
+			</main>
+      <aside class="right-bar">
+        <div class="right-bar-container">
+				<h2>Announcements</h2>
+					<div class="announcements-container">
+						<div class="first-announcement-container">
+							<h3 class="first-announcement-title">Site maintenance</h3>
+							<p>
+								Lorem Ipsum dolor emet init ver sekmethet orobonani keni porlato
+								evertti gobande peroni crensa everit.
+							</p>
+						</div>
+						<hr />
+						<div class="second-announcement-container">
+							<h3 class="first-announcement-title">Update Private Policy</h3>
+							<p>
+								Lorem Ipsum dolor emet init ver sekmethet orobonani keni porlato
+								evertti gobande peroni crensa everit.
+							</p>
+						</div>
+						<hr />
+					</div>
+          </div>
+          <div class="right-bar-container">
+					  <h2 class="chat-title">Live chat</h2>
+					    <div class="chat-container">
+					    	<div class="avatar-container" id="avatar2">
+					    		<img
+					    			src="/public/avatar2.svg"
+					    			alt="avatar2-profile-image"
+					    			class="avatar2-image"
+					    		/>
+					    		<p class="avatar2-name">@Samantha Lee</p>
+					    	</div>
+					    	<div class="avatar-container" id="avatar3">
+					    		<img
+					    			src="/public/avatar3.svg"
+					    			alt="avatar3-profile-image"
+					    			class="avatar3-image"
+					    		/>
+					    		<p class="avatar3-name">@Mike Gemsworth</p>
+					    	</div>
+					    	<div class="avatar-container" id="avatar4">
+					    		<img
+					    			src="/public/avatar4.svg"
+					    			alt="avatar4-profile-image"
+					    			class="avatar4-image"
+					    		/>
+					    		<p class="avatar4-name">@Jenny Simmons</p>
+					    	</div>
+					    	<div class="avatar-container" id="avatar5">
+					    		<img
+					    			src="/public/avatar5.svg"
+					    			alt="avatar5-profile-image"
+					    			class="avatar5-image"
+					    		/>
+					    		<p class="avatar5-name">@Corey Songdae</p>
+					    	</div>
+					    </div>
+            </div>
+				</aside>
+			</div>
+		</div>
+	</body>
+</html>
